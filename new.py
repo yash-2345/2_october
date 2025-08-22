@@ -1,6 +1,10 @@
 import streamlit as st
+from streamlit_autorefresh import st_autorefresh
 import datetime
 import time
+
+# --------- AUTO REFRESH ---------
+st_autorefresh(interval=1000, key="refresh")
 
 st.title("Surprise Surprise⁉️⁉️")
 st.divider()
@@ -117,4 +121,5 @@ if password:
             unsafe_allow_html=True
 
         )
+
 
