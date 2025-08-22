@@ -12,9 +12,6 @@ st.markdown(
     """
 )
 
-# --------- AUTO REFRESH ---------
-st_autorefresh(interval=1000, key="refresh")
-
 #---------- STYLING ----------
 st.markdown("""
  <style> 
@@ -120,3 +117,4 @@ if password:
             unsafe_allow_html=True
 
         )
+
